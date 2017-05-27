@@ -1,0 +1,2114 @@
+{
+  "spark": [
+    {
+      "name": "Petrol_Pump_Unit.Get_Reservoir",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 23
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 27
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 30
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Get_Price",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 34
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Get_State",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 36
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Print_State",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 38
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Get_Cash_Register",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 40
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 49
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Get_Total_Cash_Invariant",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 46
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 43
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.All_Pumps_Paid",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 52
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Lift",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 56
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Start",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 61
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Stop",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 67
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Replace",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 72
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit.Pay",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 77
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Petrol_Pump_Unit",
+      "sloc": [
+        {
+          "file": "petrol_pump_unit.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 101,
+      "col": 26,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit.All_Pumps_Paid",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 52
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__133.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 104,
+      "col": 14,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit.All_Pumps_Paid",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 52
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__133.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 11,
+      "col": 4,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__194.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 15,
+      "col": 4,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__194.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 17,
+      "col": 4,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__194.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 17,
+      "col": 56,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__194.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 18,
+      "col": 19,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "tracefile": "petrol_pump_unit__flow__194.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 38,
+      "col": 14,
+      "rule": "INEFFECTIVE",
+      "severity": "warning",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Print_State",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 38
+          }
+        ]
+      },
+      "msg_id": 0,
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 126,
+      "col": 46,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Start",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 61
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "61": [
+            {
+              "name": "Amount_Paid",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 1,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 65,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Start",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 61
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "61": [
+            {
+              "name": "Amount_Paid",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "65": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 2,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 155,
+      "col": 38,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Pay",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 77
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "1000000000",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "155": [
+            {
+              "name": "Amount_Paid",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "Cash_Register",
+              "value": "1000000000",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "77": [
+            {
+              "name": "Amount_Paid",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 3,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 80,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Pay",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 77
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "155": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "77": [
+            {
+              "name": "Amount_Paid",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "80": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 4,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 153,
+      "col": 66,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Pay",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 77
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "153": [
+            {
+              "name": "Amount_Paid",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "77": [
+            {
+              "name": "Amount_Paid",
+              "value": "1",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 5,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 154,
+      "col": 32,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "low",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Pay",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 77
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "77": [
+            {
+              "name": "Amount_Paid",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 6,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 101,
+      "col": 39,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.All_Pumps_Paid",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 52
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "98": [
+            {
+              "name": "Amount_Owing",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "100": [
+            {
+              "name": "Amount_Owing",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "101": [
+            {
+              "name": "Amount_Owing",
+              "value": "2147483647",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 7,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 70,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Stop",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 67
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "67": [
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "70": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 8,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 75,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Replace",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 72
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "72": [
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "75": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 9,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 59,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Lift",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 56
+          }
+        ]
+      },
+      "cntexmp": {
+        "petrol_pump_unit.adb": {
+          "15": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "17": [
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        },
+        "petrol_pump_unit.ads": {
+          "56": [
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            }
+          ],
+          "59": [
+            {
+              "name": "Cash_Register",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "P",
+              "value": "0",
+              "kind": "variable"
+            },
+            {
+              "name": "Total_Cash_Invariant",
+              "value": "0",
+              "kind": "variable"
+            }
+          ]
+        }
+      },
+      "msg_id": 10,
+      "how_proved": "prover"
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 32,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 30
+          }
+        ]
+      },
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.70000001788139E-01
+        }
+      }
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 78,
+      "col": 88,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 49
+          }
+        ]
+      },
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.89999997615814E-01
+        }
+      }
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 78,
+      "col": 54,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 49
+          }
+        ]
+      },
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.40000000596046E-01
+        }
+      }
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 19,
+      "col": 102,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 3.00000011920929E-01
+        }
+      }
+    },
+    {
+      "file": "petrol_pump_unit.adb",
+      "line": 11,
+      "col": 27,
+      "rule": "VC_LENGTH_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 1
+          }
+        ]
+      },
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 1.29999995231628E-01
+        }
+      }
+    },
+    {
+      "file": "petrol_pump_unit.ads",
+      "line": 25,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+        "sloc": [
+          {
+            "file": "petrol_pump_unit.ads",
+            "line": 23
+          }
+        ]
+      },
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.00000002980232E-01
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Price",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 34
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Total_Cash_Invariant",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 46
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Total_Cash_Invariant",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 46
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 43
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Print_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 38
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Stop",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 67
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Cash_Register",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Cash_Register",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 40
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Reservoir",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Reservoir",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Reservoir",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 20
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Reservoir",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 20
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Reservoir",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 20
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Reservoir",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Reservoir",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 20
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 23
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_State",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_State",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 36
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Cash_Register",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 30
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 49
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Cash_Register",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Cash_Register",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 40
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Reservoir_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 23
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 30
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 30
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 30
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 49
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 43
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Print_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 38
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Replace",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 72
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 49
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 49
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Calculate_Total_Value",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 49
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 43
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 27
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 27
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 27
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 27
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 43
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Reservoir",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 20
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Print_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 38
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.All_Pumps_Paid",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 52
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Start",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 61
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 27
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 27
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 27
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Total_Outstanding_Amount",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 30
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 43
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Print_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 38
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Lift",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 56
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Print_State",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 38
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 263
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Price",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 34
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 36
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Test_Cash_Invariant",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 43
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Print_State",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 38
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Petrol_Pump_Unit.Get_Outstanding_Amount",
+            "sloc": [
+              {
+                "file": "petrol_pump_unit.ads",
+                "line": 27
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Pay",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 77
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.All_Pumps_Paid",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 52
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Petrol_Pump_Unit.Get_Price",
+          "sloc": [
+            {
+              "file": "petrol_pump_unit.ads",
+              "line": 34
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

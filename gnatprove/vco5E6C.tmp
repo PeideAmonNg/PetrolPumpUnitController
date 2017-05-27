@@ -1,0 +1,72 @@
+unknown
+expr::ExprManager::ABS, 4
+
+expr::ExprManager::AND, 76
+
+expr::ExprManager::APPLY, 37
+
+expr::ExprManager::APPLY_CONSTRUCTOR, 29
+
+expr::ExprManager::APPLY_SELECTOR, 41
+
+expr::ExprManager::APPLY_UF, 349
+
+expr::ExprManager::BOUND_VARIABLE:Boolean type, 11
+
+expr::ExprManager::BOUND_VARIABLE:integer type, 104
+
+expr::ExprManager::BOUND_VARIABLE:real type, 53
+
+expr::ExprManager::BOUND_VAR_LIST, 106
+
+expr::ExprManager::DIVISION, 23
+
+expr::ExprManager::EQUAL, 143
+
+expr::ExprManager::FORALL, 106
+
+expr::ExprManager::GEQ, 14
+
+expr::ExprManager::IFF, 5
+
+expr::ExprManager::IMPLIES, 51
+
+expr::ExprManager::INST_PATTERN, 32
+
+expr::ExprManager::INST_PATTERN_LIST, 32
+
+expr::ExprManager::INTS_MODULUS, 2
+
+expr::ExprManager::ITE, 41
+
+expr::ExprManager::LEQ, 81
+
+expr::ExprManager::LT, 56
+
+expr::ExprManager::MINUS, 45
+
+expr::ExprManager::MULT, 33
+
+expr::ExprManager::NOT, 6
+
+expr::ExprManager::OR, 5
+
+expr::ExprManager::PLUS, 28
+
+expr::ExprManager::SELECT, 14
+
+expr::ExprManager::TO_INTEGER, 8
+
+expr::ExprManager::TO_REAL, 17
+
+expr::ExprManager::UMINUS, 57
+
+expr::ExprManager::VARIABLE:Parameterized type, 250
+
+DefaultModel::constantTermsCount, 0
+
+DefaultModel::functionTermsCount, 0
+
+DefaultModel::mergesCount, 0
+
+DefaultModel::termsCount, 

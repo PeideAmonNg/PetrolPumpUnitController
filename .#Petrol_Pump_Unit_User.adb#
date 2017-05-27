@@ -1,0 +1,15 @@
+with Ada.Text_IO;
+with Petrol_Pump_Unit; use Petrol_Pump_Unit;
+
+procedure Petrol_Pu is
+   package IO renames Ada.Text_IO;
+
+   F : Float := 4.27* Float(210);
+begin
+   IO.Put_Line("Hello, world!-");
+   IO.Put_Line(Litre'Image(Get_Reservoir(Pump95)));
+   lift(Pump95);
+--     Start(Pump95, 40000.0);
+--     IO.Put_Line("Amount owed after after Start(): " & Cent'Image(Get_Outstanding_Payment(Pump95)));
+--     Io.Put_Line(Float'Image(F));
+end;

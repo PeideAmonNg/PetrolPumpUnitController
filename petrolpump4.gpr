@@ -1,0 +1,6 @@
+project PetrolPump4 is
+
+   for Main use ("Petrol_User.adb");
+
+end PetrolPump4;
+

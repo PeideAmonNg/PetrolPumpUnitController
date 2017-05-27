@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__petrol_user.o
+[PROJECT FILES]
+C:\Users\pc\Desktop\swen421\petrolpump4\petrolpump4.gpr
+20170503063220
+[BOUND OBJECT FILES]
+C:\Users\pc\Desktop\swen421\petrolpump4\Petrol_Pump_Unit.o
+C:\Users\pc\Desktop\swen421\petrolpump4\Petrol_User.o
+[GENERATED SOURCE FILES]
+b__petrol_user.ads
+b__petrol_user.adb
+b__petrol_user.ali
+[RESULTING OPTIONS]
+-LC:\Users\pc\Desktop\swen421\petrolpump4\
+-LC:\Users\pc\Desktop\swen421\petrolpump4\
+-LC:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+C:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

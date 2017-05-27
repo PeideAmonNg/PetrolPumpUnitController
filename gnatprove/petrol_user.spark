@@ -1,0 +1,20 @@
+{
+  "spark": [
+    {
+      "name": "Petrol_User",
+      "sloc": [
+        {
+          "file": "petrol_user.adb",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ]
+}

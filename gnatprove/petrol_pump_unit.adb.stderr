@@ -1,0 +1,15 @@
+petrol_pump_unit.adb:65:07: warning: no Global contract available for "Put_Line"
+petrol_pump_unit.adb:65:07: warning: assuming "Put_Line" has no effect on global items
+petrol_pump_unit.adb:101:39: medium: overflow check might fail (e.g. when Amount_Owing = 2147483647 and P = 0)[#7]
+petrol_pump_unit.adb:126:46: medium: range check might fail[#1]
+petrol_pump_unit.adb:153:66: medium: range check might fail (e.g. when Amount_Paid = 1 and P = 0)[#5]
+petrol_pump_unit.adb:154:07: warning: no Global contract available for "Put_Line"
+petrol_pump_unit.adb:154:07: warning: assuming "Put_Line" has no effect on global items
+petrol_pump_unit.adb:154:32: low: range check might fail[#6]
+petrol_pump_unit.adb:155:38: medium: range check might fail (e.g. when Amount_Paid = 1 and Cash_Register = 1000000000)[#3]
+petrol_pump_unit.ads:38:14: warning: subprogram "Print_State" has no effect[#0]
+petrol_pump_unit.ads:59:14: medium: postcondition might fail (e.g. when Cash_Register = 0 and P = 0 and Total_Cash_Invariant = 0)[#10]
+petrol_pump_unit.ads:65:14: medium: postcondition might fail (e.g. when Cash_Register = 0 and P = 0 and Total_Cash_Invariant = 0)[#2]
+petrol_pump_unit.ads:70:14: medium: postcondition might fail (e.g. when Cash_Register = 0 and P = 0 and Total_Cash_Invariant = 0)[#8]
+petrol_pump_unit.ads:75:14: medium: postcondition might fail (e.g. when Cash_Register = 0 and P = 0 and Total_Cash_Invariant = 0)[#9]
+petrol_pump_unit.ads:80:14: medium: postcondition might fail (e.g. when Cash_Register = 0 and P = 0 and Total_Cash_Invariant = 0)[#4]

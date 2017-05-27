@@ -1,0 +1,163 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U petrol_pump_unit%b	petrol_pump_unit.adb	25f7ded0 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U petrol_pump_unit%s	petrol_pump_unit.ads	785c5017 EE OO PF PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D petrol_pump_unit.ads	20170507140646 785c5017 petrol_pump_unit%s
+D petrol_pump_unit.adb	20170507140652 142326fc petrol_pump_unit%b
+D system.ads		20160516092930 2da59038 system%s
+D s-assert.ads		20160516092930 cd8d2c94 system.assertions%s
+D s-conca2.ads		20160516092930 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-imenne.ads		20160516092928 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20160516092930 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20160516092926 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r23 2r6
+X 4 a-numeri.ads
+16K13*Numerics 32e17 14|2r10
+X 5 a-nudira.ads
+44k22*Discrete_Random 75e33 14|2w19
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 1r27
+263U14*Put_Line 14|65s7 152s7
+X 13 petrol_pump_unit.ads
+1K9*Petrol_Pump_Unit 84E9 91e4 14|4b14 158t4
+3@20*State 21r26 24r26 28r26 31r26 44r27 50r27 57r27 62r27 68r27 73r27 78r28
+. 14|6r19
+3@27*Internal_State 41r26 44r34 47r26 50r34 57r46 62r46 68r46 73r46 78r35
+. 14|6r37
+7R9*Pump 84c9 90e14 14|9r51
+9E9*Pump_Type 9e50 20r30 27r39 34r26 36r26 38r29 56r22 61r23 67r22 72r25
+. 77r21 85r17 14|9r31 24r30 38r39 53r26 58r26 63r29 114r22 121r23 134r22
+. 140r25 146r21
+9n23*Pump91{9E9} 14|11r28 11r39 17r62 19r25 35r41 49r50
+9n31*Pump95{9E9} 14|12r28 12r39 17r102 19r74 35r79 49r97
+9n39*PumpDiesel{9E9} 14|13r28 13r43 17r142 20r27 35r117 50r45
+10E9*Pump_State 10e54 36r44 88r14 14|58r44 65r16
+10n24*Base{10E9} 58r28 80r29 14|11r65 12r65 13r73 150r25
+10n30*Waiting{10E9} 58r51 75r29 79r28 14|142r25
+10n39*Ready{10E9} 59r29 63r28 70r29 74r28 14|117r25 136r25
+10n46*Pumping{10E9} 65r29 69r28 14|123r25
+11I9*General_Cent<integer> 23r40 25r44 30r49 32r53 34r44 46r45 49r42 63r38
+. 63r67 86r14 14|17r27 17r43 17r83 17r123 18r6 19r6 19r55 20r8 31r40 35r14
+. 35r52 35r90 45r49 49r14 49r61 50r9 53r44 75r42 78r14 78r50 78r84 81r45
+. 92r38 98r22 101r41
+12I9*Cent<integer> 27r57 32r66 61r47 77r45 89r27 14|38r57 121r47 146r45 151r68
+. 152r34
+13I9*Reservoir_Cent<integer> 20r48 25r57 87r18 14|24r48 124r48
+14I9*Cash_Register_Cent<integer> 40r38 14|15r19 68r38 153r40
+20V13*Get_Reservoir{13I9} 20>27 63s80 65s41 14|24b13 29t7 35s27 35s65 35s103
+. 124s29
+20e27 P{9E9} 14|24b27 28r20
+23V13*Get_Total_Reservoir{11I9} 25r14 14|31b13 36t7 78s27
+27V13*Get_Outstanding_Amount{12I9} 27>36 79s54 80s38 14|38b13 43t7 49s27
+. 49s74 50s22
+27e36 P{9E9} 14|38b36 42r20
+30V13*Get_Total_Outstanding_Amount{11I9} 32r14 14|45b13 51t7 78s97
+34V13*Get_Price{11I9} 34>23 79s84 14|53b13 56t7
+34e23 P{9E9} 14|53b23 55r20
+36V13*Get_State{10E9} 36>23 58s13 58s36 59s14 63s13 65s14 69s13 70s14 74s13
+. 75s14 79s13 80s14 14|58b13 61t7
+36e23 P{9E9} 14|58b23 60r20
+38U14*Print_State 38>26 14|63b14 66t7 118s7 127s7 137s7 143s7 154s7
+38e26 P{9E9} 14|63b26 65r39
+40V13*Get_Cash_Register{14I9} 14|68b13 73t7 78s63
+43V13*Test_Cash_Invariant{boolean} 59s39 65s67 70s39 75s41 80s72 14|88b13
+. 93t7
+46V13*Get_Total_Cash_Invariant{11I9} 14|81b13 86t7
+49V13*Calculate_Total_Value{11I9} 14|75b13 79t7 92s14
+52V13*All_Pumps_Paid{boolean} 64s10 14|97b13 105t7
+56U14*Lift 56>19 14|114b14 119l8 119t12
+56e19 P{9E9} 58r23 58r46 59r24 14|114b19 117r13 118r19
+61U14*Start 61>20 61>34 14|121b14 131l8 131t13
+61e20 P{9E9} 63r23 63r94 65r24 65r55 14|121b20 123r13 124r13 124r43 126r13
+. 127r19
+61i34 Amount_Paid{12I9} 63r51 14|121b34 124r63 126r38
+67U14*Stop 67>19 14|134b14 138l8 138t12
+67e19 P{9E9} 69r23 70r24 14|134b19 136r13 137r19
+72U14*Replace 72>22 14|140b14 144l8 144t15
+72e22 P{9E9} 74r23 75r24 14|140b22 142r13 143r19
+77U14*Pay 77>18 77>32 14|146b14 155l8 155t11
+77e18 P{9E9} 79r23 79r77 79r94 80r24 80r61 14|146b18 150r13 151r13 151r44
+. 154r19
+77i32 Amount_Paid{12I9} 79r40 14|146b32 151r73 152r45 153r59
+85e7*PumpType{9E9}
+86i7*Price{11I9} 14|55r23
+87i7*Reservoir{13I9} 14|17r70 17r110 17r154 28r23 124m16
+88e7*State{10E9} 14|60r23 65r42 117m16 123m16 136m16 142m16 150m16
+89i7*Outstanding_Amount{12I9} 14|19r33 19r82 20r39 42r23 101r63 126m16 151m16
+. 151r47
+X 14 petrol_pump_unit.adb
+9A9 Pumps_Array(13|7R9)<13|9E9> 11r12
+11a4 Pumps{9A9} 6r29 17r56 17r96 17r136 19r19 19r68 20r21 25r34 28r14 32r34
+. 39r34 42r14 46r34 55r14 60r14 65r33 89r35 100r16 101r54 117m7 123m7 124m7
+. 126m7 136m7 142m7 150m7 151m7 151r38
+15i4 Cash_Register{13|14I9} 6r56 18r19 69r34 72r14 89r42 153m7 153r24
+17i4 Total_Cash_Invariant{13|11I9} 6r71 82r34 85r14 89r57 92r51
+98i7 Amount_Owing{13|11I9} 101m10 101r26 104r14
+100e11 P{13|9E9} 101r60
+

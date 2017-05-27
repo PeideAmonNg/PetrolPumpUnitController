@@ -1,0 +1,479 @@
+V "GNAT Lib v2016"
+A -gnatc
+P GP ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U petrol_pump_unit%b	petrol_pump_unit.adb	5534dac4 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s  a-nudira.adb	a-nudira.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+
+U petrol_pump_unit%s	petrol_pump_unit.ads	84a1f451 EE OO PK
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20160516092928 bb51c45a ada.numerics%s
+D a-nudira.ads		20160516092928 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20160516092928 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D petrol_pump_unit.ads	20170507133832 84a1f451 petrol_pump_unit%s
+D petrol_pump_unit.adb	20170505011258 981d86ae petrol_pump_unit%b
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-rannum.ads		20160516092928 99ade2f2 system.random_numbers%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r23 2r6
+X 3 a-numeri.ads
+16K13*Numerics 32e17 11|2r10
+X 4 a-nudira.ads
+44k22*Discrete_Random 75e33 11|2w19
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+263U14*Put_Line 11|65s7 154s7
+X 10 petrol_pump_unit.ads
+1K9*Petrol_Pump_Unit 91e4 11|4b14 160t4
+3@20*State 21r26 24r26 28r26 31r26 44r27 50r27 57r27 62r27 68r27 73r27 78r28
+. 11|6r19
+3@27*Internal_State 41r26 44r34 47r26 50r34 57r46 62r46 68r46 73r46 78r35
+. 11|6r37
+7R9*Pump 84c9 90e14 11|9r51
+9E9*Pump_Type 9e50 20r30 27r39 34r26 36r26 38r29 56r22 61r23 67r22 72r25
+. 77r21 85r17 11|9r31 24r30 38r39 53r26 58r26 63r29 114r22 123r23 136r22
+. 142r25 148r21
+9n23*Pump91{9E9} 11|11r28 11r39 17r62 19r25 35r41 49r50
+9n31*Pump95{9E9} 11|12r28 12r39 17r102 19r74 35r79 49r97
+9n39*PumpDiesel{9E9} 11|13r28 13r43 17r142 20r27 35r117 50r45
+10E9*Pump_State 10e54 36r44 88r14 11|58r44 65r16
+10n24*Base{10E9} 58r28 80r29 11|11r65 12r65 13r73 152r25
+10n30*Waiting{10E9} 58r51 75r29 79r28 11|144r25
+10n39*Ready{10E9} 59r29 63r28 70r29 74r28 11|119r25 138r25
+10n46*Pumping{10E9} 65r29 69r28 11|125r25
+11I9*General_Cent<integer> 23r46 25r50 30r49 32r53 34r44 46r45 49r42 63r38
+. 63r67 86r14 11|17r27 17r43 17r83 17r123 18r6 19r6 19r55 20r8 31r46 35r14
+. 35r52 35r90 45r49 49r14 49r61 50r9 53r44 75r42 78r14 78r56 78r90 81r45
+. 92r38 98r22 101r41
+12I9*Cent<integer> 27r57 32r66 61r47 77r45 89r27 11|38r57 123r47 148r45 153r68
+. 154r34
+13I9*Reservoir_Cent<integer> 20r48 25r63 87r18 11|24r48 126r48
+14I9*Cash_Register_Cent<integer> 40r38 11|15r19 68r38 155r40
+20V13*Get_Reservoir{13I9} 20>27 63s80 65s41 11|24b13 29t7 35s27 35s65 35s103
+. 126s29
+20e27 P{9E9} 11|24b27 28r20
+23V13*Calculate_Reservoir_Value{11I9} 25r14 11|31b13 36t7 78s27
+27V13*Get_Outstanding_Amount{12I9} 27>36 79s54 80s38 11|38b13 43t7 49s27
+. 49s74 50s22
+27e36 P{9E9} 11|38b36 42r20
+30V13*Get_Total_Outstanding_Amount{11I9} 32r14 11|45b13 51t7 78s103
+34V13*Get_Price{11I9} 34>23 79s84 11|53b13 56t7
+34e23 P{9E9} 11|53b23 55r20
+36V13*Get_State{10E9} 36>23 58s13 58s36 59s14 63s13 65s14 69s13 70s14 74s13
+. 75s14 79s13 80s14 11|58b13 61t7
+36e23 P{9E9} 11|58b23 60r20
+38U14*Print_State 38>26 11|63b14 66t7 120s7 129s7 139s7 145s7 156s7
+38e26 P{9E9} 11|63b26 65r39
+40V13*Get_Cash_Register{14I9} 11|68b13 73t7 78s69
+43V13*Test_Cash_Invariant{boolean} 59s39 65s67 70s39 75s41 80s72 11|88b13
+. 93t7
+46V13*Get_Total_Cash_Invariant{11I9} 11|81b13 86t7
+49V13*Calculate_Total_Value{11I9} 11|75b13 79t7 92s14
+52V13*All_Pumps_Paid{boolean} 64s10 11|97b13 105t7
+56U14*Lift 56>19 11|114b14 121l8 121t12
+56e19 P{9E9} 58r23 58r46 59r24 11|114b19 119r13 120r19
+61U14*Start 61>20 61>34 11|123b14 133l8 133t13
+61e20 P{9E9} 63r23 63r94 65r24 65r55 11|123b20 125r13 126r13 126r43 128r13
+. 129r19
+61i34 Amount_Paid{12I9} 63r51 11|123b34 126r63 128r38
+67U14*Stop 67>19 11|136b14 140l8 140t12
+67e19 P{9E9} 69r23 70r24 11|136b19 138r13 139r19
+72U14*Replace 72>22 11|142b14 146l8 146t15
+72e22 P{9E9} 74r23 75r24 11|142b22 144r13 145r19
+77U14*Pay 77>18 77>32 11|148b14 157l8 157t11
+77e18 P{9E9} 79r23 79r77 79r94 80r24 80r61 11|148b18 152r13 153r13 153r44
+. 156r19
+77i32 Amount_Paid{12I9} 79r40 11|148b32 153r73 154r45 155r59
+85e7*PumpType{9E9}
+86i7*Price{11I9} 11|55r23
+87i7*Reservoir{13I9} 11|17r70 17r110 17r154 28r23 126m16
+88e7*State{10E9} 11|60r23 65r42 119m16 125m16 138m16 144m16 152m16
+89i7*Outstanding_Amount{12I9} 11|19r33 19r82 20r39 42r23 101r63 128m16 153m16
+. 153r47
+X 11 petrol_pump_unit.adb
+9A9 Pumps_Array(10|7R9)<10|9E9> 11r12
+11a4 Pumps{9A9} 6r29 17r56 17r96 17r136 19r19 19r68 20r21 25r34 28r14 32r34
+. 39r34 42r14 46r34 55r14 60r14 65r33 89r35 100r16 101r54 119m7 125m7 126m7
+. 128m7 138m7 144m7 152m7 153m7 153r38
+15i4 Cash_Register{10|14I9} 6r56 18r19 69r34 72r14 89r42 155m7 155r24
+17i4 Total_Cash_Invariant{10|11I9} 6r71 82r34 85r14 89r57 92r51
+98i7 Amount_Owing{10|11I9} 101m10 101r26 104r14
+100e11 P{10|9E9} 101r60
+FD 1 ada.ads
+FS .1 16K9 ada
+FD 2 a-ioexce.ads
+FS .1 18K13 ada__io_exceptions
+FD 3 a-numeri.ads
+FS .1 16K13 ada__numerics
+FD 4 a-nudira.ads
+FD 5 a-nudira.adb
+FD 6 a-stream.ads
+FS .1 36K13 ada__streams
+FS .2 76U14 ada__streams__read_sea
+FS .3 80U14 ada__streams__write_sea
+FS .4 84U4 ada__streams__stream_element_arraySR
+FS .5 85U4 ada__streams__stream_element_arraySW
+FS .6 84U4 ada__streams__stream_element_arraySR -> 6.4
+FS .7 85U4 ada__streams__stream_element_arraySW -> 6.5
+FD 7 a-textio.ads
+FS .1 49K13 ada__text_io
+FS .2 86U14 ada__text_io__create
+FS .3 92U14 ada__text_io__open
+FS .4 98U14 ada__text_io__close
+FS .5 99U14 ada__text_io__delete
+FS .6 100U14 ada__text_io__reset
+FS .7 101U14 ada__text_io__reset__2
+FS .8 103V13 ada__text_io__mode
+FS .9 104V13 ada__text_io__name
+FS .10 105V13 ada__text_io__form
+FS .11 107V13 ada__text_io__is_open
+FS .12 113U14 ada__text_io__set_input
+FS .13 114U14 ada__text_io__set_output
+FS .14 115U14 ada__text_io__set_error
+FS .15 117V13 ada__text_io__standard_input
+FS .16 118V13 ada__text_io__standard_output
+FS .17 119V13 ada__text_io__standard_error
+FS .18 121V13 ada__text_io__current_input
+FS .19 122V13 ada__text_io__current_output
+FS .20 123V13 ada__text_io__current_error
+FS .21 127V13 ada__text_io__standard_input__2
+FS .22 128V13 ada__text_io__standard_output__2
+FS .23 129V13 ada__text_io__standard_error__2
+FS .24 131V13 ada__text_io__current_input__2
+FS .25 132V13 ada__text_io__current_output__2
+FS .26 133V13 ada__text_io__current_error__2
+FS .27 142U14 ada__text_io__flush
+FS .28 143U14 ada__text_io__flush__2
+FS .29 149U14 ada__text_io__set_line_length
+FS .30 150U14 ada__text_io__set_line_length__2
+FS .31 152U14 ada__text_io__set_page_length
+FS .32 153U14 ada__text_io__set_page_length__2
+FS .33 155V13 ada__text_io__line_length
+FS .34 156V13 ada__text_io__line_length__2
+FS .35 158V13 ada__text_io__page_length
+FS .36 159V13 ada__text_io__page_length__2
+FS .37 165U14 ada__text_io__new_line
+FS .38 166U14 ada__text_io__new_line__2
+FS .39 168U14 ada__text_io__skip_line
+FS .40 169U14 ada__text_io__skip_line__2
+FS .41 171V13 ada__text_io__end_of_line
+FS .42 172V13 ada__text_io__end_of_line__2
+FS .43 174U14 ada__text_io__new_page
+FS .44 175U14 ada__text_io__new_page__2
+FS .45 177U14 ada__text_io__skip_page
+FS .46 178U14 ada__text_io__skip_page__2
+FS .47 180V13 ada__text_io__end_of_page
+FS .48 181V13 ada__text_io__end_of_page__2
+FS .49 183V13 ada__text_io__end_of_file
+FS .50 184V13 ada__text_io__end_of_file__2
+FS .51 186U14 ada__text_io__set_col
+FS .52 187U14 ada__text_io__set_col__2
+FS .53 189U14 ada__text_io__set_line
+FS .54 190U14 ada__text_io__set_line__2
+FS .55 192V13 ada__text_io__col
+FS .56 193V13 ada__text_io__col__2
+FS .57 195V13 ada__text_io__line
+FS .58 196V13 ada__text_io__line__2
+FS .59 198V13 ada__text_io__page
+FS .60 199V13 ada__text_io__page__2
+FS .61 205U14 ada__text_io__get
+FS .62 206U14 ada__text_io__get__2
+FS .63 207U14 ada__text_io__put
+FS .64 208U14 ada__text_io__put__2
+FS .65 210U14 ada__text_io__look_ahead
+FS .66 215U14 ada__text_io__look_ahead__2
+FS .67 219U14 ada__text_io__get_immediate
+FS .68 223U14 ada__text_io__get_immediate__2
+FS .69 226U14 ada__text_io__get_immediate__3
+FS .70 231U14 ada__text_io__get_immediate__4
+FS .71 239U14 ada__text_io__get__3
+FS .72 240U14 ada__text_io__get__4
+FS .73 241U14 ada__text_io__put__3
+FS .74 242U14 ada__text_io__put__4
+FS .75 244U14 ada__text_io__get_line
+FS .76 249U14 ada__text_io__get_line__2
+FS .77 253V13 ada__text_io__get_line__3
+FS .78 256V13 ada__text_io__get_line__4
+FS .79 259U14 ada__text_io__put_line
+FS .80 263U14 ada__text_io__put_line__2
+FS .81 426V13 ada__text_io__afcb_allocate__2
+FS .82 428U14 ada__text_io__afcb_close__2
+FS .83 429U14 ada__text_io__afcb_free__2
+FS .84 431U14 ada__text_io__read__2
+FS .85 437U14 ada__text_io__write__2
+FS .86 460V13 ada__text_io__eof_char
+FS .87 466U14 ada__text_io__initialize_standard_files
+FD 8 interfac.ads
+FS .1 38K9 interfaces
+FS .2 81V13 interfaces__shift_left
+FS .3 85V13 interfaces__shift_right
+FS .4 89V13 interfaces__shift_right_arithmetic
+FS .5 93V13 interfaces__rotate_left
+FS .6 97V13 interfaces__rotate_right
+FS .7 101V13 interfaces__shift_left__2
+FS .8 105V13 interfaces__shift_right__2
+FS .9 109V13 interfaces__shift_right_arithmetic__2
+FS .10 113V13 interfaces__rotate_left__2
+FS .11 117V13 interfaces__rotate_right__2
+FS .12 121V13 interfaces__shift_left__3
+FS .13 125V13 interfaces__shift_right__3
+FS .14 129V13 interfaces__shift_right_arithmetic__3
+FS .15 133V13 interfaces__rotate_left__3
+FS .16 137V13 interfaces__rotate_right__3
+FS .17 141V13 interfaces__shift_left__4
+FS .18 145V13 interfaces__shift_right__4
+FS .19 149V13 interfaces__shift_right_arithmetic__4
+FS .20 153V13 interfaces__rotate_left__4
+FS .21 157V13 interfaces__rotate_right__4
+FD 9 i-cstrea.ads
+FS .1 37K20 interfaces__c_streams
+FS .2 72V13 interfaces__c_streams__stdin
+FS .3 73V13 interfaces__c_streams__stdout
+FS .4 74V13 interfaces__c_streams__stderr
+FS .5 95V13 interfaces__c_streams__feof
+FS .6 97V13 interfaces__c_streams__ferror
+FS .7 106V13 interfaces__c_streams__fileno
+FS .8 128V13 interfaces__c_streams__fread
+FS .9 134V13 interfaces__c_streams__fread__2
+FS .10 171V13 interfaces__c_streams__fwrite
+FS .11 184V13 interfaces__c_streams__setvbuf
+FS .12 212V13 interfaces__c_streams__file_exists
+FS .13 215V13 interfaces__c_streams__is_regular_file
+FS .14 223U14 interfaces__c_streams__set_binary_mode
+FS .15 224U14 interfaces__c_streams__set_text_mode
+FS .16 254U14 interfaces__c_streams__set_mode
+FS .17 262U14 interfaces__c_streams__full_name
+FD 10 petrol_pump_unit.ads
+FS .1 1K9 petrol_pump_unit
+FS .2 20V13 petrol_pump_unit__get_reservoir
+FS .3 23V13 petrol_pump_unit__calculate_reservoir_value
+FS .4 27V13 petrol_pump_unit__get_outstanding_amount
+FS .5 30V13 petrol_pump_unit__get_total_outstanding_amount
+FS .6 34V13 petrol_pump_unit__get_price
+FS .7 36V13 petrol_pump_unit__get_state
+FS .8 38U14 petrol_pump_unit__print_state
+FS .9 40V13 petrol_pump_unit__get_cash_register
+FS .10 43V13 petrol_pump_unit__test_cash_invariant
+FS .11 46V13 petrol_pump_unit__get_total_cash_invariant
+FS .12 49V13 petrol_pump_unit__calculate_total_value
+FS .13 52V13 petrol_pump_unit__all_pumps_paid
+FS .14 56U14 petrol_pump_unit__lift
+FS .15 61U14 petrol_pump_unit__start
+FS .16 67U14 petrol_pump_unit__stop
+FS .17 72U14 petrol_pump_unit__replace
+FS .18 77U14 petrol_pump_unit__pay
+FD 11 petrol_pump_unit.adb
+FS .1 4K14 standard__petrol_pump_unit -> 10.1
+FS .2 24V13 petrol_pump_unit__get_reservoir -> 10.2
+FS .3 31V13 petrol_pump_unit__calculate_reservoir_value -> 10.3
+FS .4 38V13 petrol_pump_unit__get_outstanding_amount -> 10.4
+FS .5 45V13 petrol_pump_unit__get_total_outstanding_amount -> 10.5
+FS .6 53V13 petrol_pump_unit__get_price -> 10.6
+FS .7 58V13 petrol_pump_unit__get_state -> 10.7
+FS .8 63U14 petrol_pump_unit__print_state -> 10.8
+FS .9 68V13 petrol_pump_unit__get_cash_register -> 10.9
+FS .10 75V13 petrol_pump_unit__calculate_total_value -> 10.12
+FS .11 81V13 petrol_pump_unit__get_total_cash_invariant -> 10.11
+FS .12 88V13 petrol_pump_unit__test_cash_invariant -> 10.10
+FS .13 97V13 petrol_pump_unit__all_pumps_paid -> 10.13
+FS .14 114U14 petrol_pump_unit__lift -> 10.14
+FS .15 123U14 petrol_pump_unit__start -> 10.15
+FS .16 136U14 petrol_pump_unit__stop -> 10.16
+FS .17 142U14 petrol_pump_unit__replace -> 10.17
+FS .18 148U14 petrol_pump_unit__pay -> 10.18
+FD 12 system.ads
+FS .1 37K9 system
+FS .2 77V13 system__Olt
+FS .3 78V13 system__Ole
+FS .4 79V13 system__Ogt
+FS .5 80V13 system__Oge
+FS .6 81V13 system__Oeq
+FD 13 s-crtl.ads
+FS .1 38K16 system__crtl
+FS .2 85V13 system__crtl__strlen
+FS .3 88U14 system__crtl__strncpy
+FS .4 95V13 system__crtl__atoi
+FS .5 98U14 system__crtl__clearerr
+FS .6 101V13 system__crtl__dup
+FS .7 104V13 system__crtl__dup2
+FS .8 107V13 system__crtl__fclose
+FS .9 110V13 system__crtl__fdopen
+FS .10 113V13 system__crtl__fflush
+FS .11 116V13 system__crtl__fgetc
+FS .12 119V13 system__crtl__fgets
+FS .13 122V13 system__crtl__fopen
+FS .14 128V13 system__crtl__fputc
+FS .15 131V13 system__crtl__fputwc
+FS .16 134V13 system__crtl__fputs
+FS .17 137U14 system__crtl__free
+FS .18 140V13 system__crtl__freopen
+FS .19 147V13 system__crtl__fseek
+FS .20 153V13 system__crtl__fseek64
+FS .21 159V13 system__crtl__ftell
+FS .22 162V13 system__crtl__ftell64
+FS .23 165V13 system__crtl__getenv
+FS .24 168V13 system__crtl__isatty
+FS .25 171V13 system__crtl__lseek
+FS .26 174V13 system__crtl__malloc
+FS .27 177U14 system__crtl__memcpy
+FS .28 180U14 system__crtl__memmove
+FS .29 183U14 system__crtl__mktemp
+FS .30 186V13 system__crtl__pclose
+FS .31 189V13 system__crtl__popen
+FS .32 192V13 system__crtl__realloc
+FS .33 196U14 system__crtl__rewind
+FS .34 199V13 system__crtl__rmdir
+FS .35 202V13 system__crtl__chdir
+FS .36 205V13 system__crtl__mkdir
+FS .37 210V13 system__crtl__setvbuf
+FS .38 217U14 system__crtl__tmpnam
+FS .39 220V13 system__crtl__tmpfile
+FS .40 223V13 system__crtl__ungetc
+FS .41 226V13 system__crtl__unlink
+FS .42 229V13 system__crtl__open
+FS .43 232V13 system__crtl__close
+FS .44 235V13 system__crtl__read
+FS .45 238V13 system__crtl__write
+FD 14 s-ficobl.ads
+FS .1 42K16 system__file_control_block
+FD 15 s-parame.ads
+FS .1 51K16 system__parameters
+FS .2 81V13 system__parameters__default_stack_size
+FS .3 84V13 system__parameters__minimum_stack_size
+FS .4 87V13 system__parameters__adjust_storage_size
+FD 16 s-rannum.ads
+FS .1 60K16 system__random_numbers
+FS .2 71V13 system__random_numbers__random
+FS .3 72V13 system__random_numbers__random__2
+FS .4 75V13 system__random_numbers__random__3
+FS .5 76V13 system__random_numbers__random__4
+FS .6 100U14 system__random_numbers__reset
+FS .7 103U14 system__random_numbers__reset__2
+FS .8 104U14 system__random_numbers__reset__3
+FS .9 105U14 system__random_numbers__reset__4
+FS .10 106U14 system__random_numbers__reset__5
+FS .11 110U14 system__random_numbers__reset__6
+FS .12 114U14 system__random_numbers__reset__7
+FS .13 115U14 system__random_numbers__save
+FS .14 120U14 system__random_numbers__reset__8
+FS .15 121V13 system__random_numbers__image
+FS .16 129V13 system__random_numbers__image__2
+FS .17 133V13 system__random_numbers__value
+FD 17 s-wchcon.ads
+FS .1 41K16 system__wch_con
+FS .2 203V13 system__wch_con__get_wc_encoding_method
+FS .3 207V13 system__wch_con__get_wc_encoding_method__2
+FS .4 212V13 system__wch_con__is_start_of_encoding
+FX 7 a-textio.ads .1 ada__text_io
+F 263*14 ada__text_io__put_line__2 11|.8:65s7 .18:154s7
+FX 10 petrol_pump_unit.ads .1 petrol_pump_unit
+F 20*13 petrol_pump_unit__get_reservoir .15:63s80 65s41 11|.3:35s27 35s65
+. 35s103 .15:126s29
+F 23*13 petrol_pump_unit__calculate_reservoir_value 11|.10:78s27
+F 27*13 petrol_pump_unit__get_outstanding_amount .18:79s54 80s38 11|.5:49s27
+. 49s74 50s22
+F 30*13 petrol_pump_unit__get_total_outstanding_amount 11|.10:78s103
+F 34*13 petrol_pump_unit__get_price .18:79s84
+F 36*13 petrol_pump_unit__get_state .14:58s13 58s36 59s14 .15:63s13 65s14
+. .16:69s13 70s14 .17:74s13 75s14 .18:79s13 80s14
+F 38*14 petrol_pump_unit__print_state 11|.14:120s7 .15:129s7 .16:139s7 .17:145s7
+. .18:156s7
+F 40*13 petrol_pump_unit__get_cash_register 11|.10:78s69
+F 43*13 petrol_pump_unit__test_cash_invariant .14:59s39 .15:65s67 .16:70s39
+. .17:75s41 .18:80s72
+F 49*13 petrol_pump_unit__calculate_total_value 11|.12:92s14
+F 52*13 petrol_pump_unit__all_pumps_paid .15:64s10
+FX 10 petrol_pump_unit.ads .2 petrol_pump_unit__get_reservoir
+F 20>27 petrol_pump_unit__get_reservoir__p 11|.2:28c20
+FX 10 petrol_pump_unit.ads .4 petrol_pump_unit__get_outstanding_amount
+F 27>36 petrol_pump_unit__get_outstanding_amount__p 11|.4:42c20
+FX 10 petrol_pump_unit.ads .6 petrol_pump_unit__get_price
+F 34>23 petrol_pump_unit__get_price__p 11|.6:55c20
+FX 10 petrol_pump_unit.ads .7 petrol_pump_unit__get_state
+F 36>23 petrol_pump_unit__get_state__p 11|.7:60c20
+FX 10 petrol_pump_unit.ads .8 petrol_pump_unit__print_state
+F 38>26 petrol_pump_unit__print_state__p 11|.8:65c39
+FX 10 petrol_pump_unit.ads .14 petrol_pump_unit__lift
+F 56>19 petrol_pump_unit__lift__p 58c23 58c46 59c24 11|.14:119c13 120c19
+FX 10 petrol_pump_unit.ads .15 petrol_pump_unit__start
+F 61>20 petrol_pump_unit__start__p 63c23 63c94 65c24 65c55 11|.15:125c13
+. 126c13 126c43 128c13 129c19
+F 61>34 petrol_pump_unit__start__amount_paid 63c51 11|.15:126c63 128c38
+FX 10 petrol_pump_unit.ads .16 petrol_pump_unit__stop
+F 67>19 petrol_pump_unit__stop__p 69c23 70c24 11|.16:138c13 139c19
+FX 10 petrol_pump_unit.ads .17 petrol_pump_unit__replace
+F 72>22 petrol_pump_unit__replace__p 74c23 75c24 11|.17:144c13 145c19
+FX 10 petrol_pump_unit.ads .18 petrol_pump_unit__pay
+F 77>18 petrol_pump_unit__pay__p 79c23 79c77 79c94 80c24 80c61 11|.18:152c13
+. 153c13 153c44 156c19
+F 77>32 petrol_pump_unit__pay__amount_paid 79c40 11|.18:153c73 154c45 155c59
+FX 11 petrol_pump_unit.adb .1 standard__petrol_pump_unit
+F 11*4 petrol_pump_unit__pumps 6r29 17r56 17r96 17r136 19r19 19r68 20r21
+. .2:25r34 28r14 .3:32r34 .4:39r34 42r14 .5:46r34 .6:55r14 .7:60r14 .8:65r33
+. .12:89r35 .13:100r16 101r54 .14:119m7 .15:125m7 126m7 128m7 .16:138m7 .17:144m7
+. .18:152m7 153m7 153r38
+F 15*4 petrol_pump_unit__cash_register 6r56 18r19 .9:69r34 72r14 .12:89r42
+. .18:155m7 155r24
+F 17*4 petrol_pump_unit__total_cash_invariant 6r71 .11:82r34 85r14 .12:89r57
+. 92r51
+FX 11 petrol_pump_unit.adb .13 petrol_pump_unit__all_pumps_paid
+F 98*7 petrol_pump_unit__all_pumps_paid__amount_owing 101m10 101r26 104r14
+F 100*11 petrol_pump_unit__all_pumps_paid__L_1__p 101c60
+
+GG EK_STATE_MAP petrol_pump_unit__state [ petrol_pump_unit__pumps ]
+GG EK_STATE_MAP petrol_pump_unit__internal_state [ petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_REMOTE_STATES c:RS [ petrol_pump_unit__state petrol_pump_unit__internal_state ]
+GG EK_GLOBALS petrol_pump_unit KIND_PACKAGE_BODY ORIGIN_FLOW c:local_var [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant petrol_pump_unit__state petrol_pump_unit__internal_state ] c:local_sub [ petrol_pump_unit__get_total_outstanding_amount petrol_pump_unit__test_cash_invariant petrol_pump_unit__get_state petrol_pump_unit__get_reservoir petrol_pump_unit__all_pumps_paid petrol_pump_unit__get_outstanding_amount petrol_pump_unit__get_price petrol_pump_unit__get_total_cash_invariant petrol_pump_unit__get_cash_register petrol_pump_unit__lift petrol_pump_unit__calculate_total_value petrol_pump_unit__start petrol_pump_unit__stop petrol_pump_unit__replace petrol_pump_unit__print_state petrol_pump_unit__pay petrol_pump_unit__calculate_reservoir_value ] c:local_init [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_GLOBALS petrol_pump_unit__stop KIND_SUBPROGRAM ORIGIN_FLOW c:var_proof [ petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ] c:var_in [ petrol_pump_unit__pumps ] c:var_out [ petrol_pump_unit__pumps ] c:calls_proof [ petrol_pump_unit__get_state ] c:calls [ petrol_pump_unit__print_state ] c:local_var [ petrol_pump_unit__stop__p ]
+GG EK_GLOBALS petrol_pump_unit__calculate_total_value KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ petrol_pump_unit__pumps petrol_pump_unit__cash_register ]
+GG EK_GLOBALS petrol_pump_unit__get_state KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ petrol_pump_unit__pumps ] c:local_var [ petrol_pump_unit__get_state__p ]
+GG EK_GLOBALS petrol_pump_unit__all_pumps_paid KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ petrol_pump_unit__pumps ] c:local_var [ petrol_pump_unit__all_pumps_paid__L_1__p petrol_pump_unit__all_pumps_paid__amount_owing ] c:local_init [ petrol_pump_unit__all_pumps_paid__amount_owing ]
+GG EK_GLOBALS petrol_pump_unit__start KIND_SUBPROGRAM ORIGIN_FLOW c:var_proof [ petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ] c:var_in [ petrol_pump_unit__pumps ] c:var_out [ petrol_pump_unit__pumps ] c:calls_proof [ petrol_pump_unit__get_state petrol_pump_unit__all_pumps_paid ] c:calls [ petrol_pump_unit__print_state ] c:local_var [ petrol_pump_unit__start__p petrol_pump_unit__start__amount_paid ]
+GG EK_GLOBALS petrol_pump_unit__lift KIND_SUBPROGRAM ORIGIN_FLOW c:var_proof [ petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ] c:var_in [ petrol_pump_unit__pumps ] c:var_out [ petrol_pump_unit__pumps ] c:calls_proof [ petrol_pump_unit__get_state ] c:calls [ petrol_pump_unit__print_state ] c:local_var [ petrol_pump_unit__lift__p ]
+GG EK_GLOBALS petrol_pump_unit__print_state KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ petrol_pump_unit__pumps ] c:calls [ ada__text_io__put_line__2 ] c:local_var [ petrol_pump_unit__print_state__p ]
+GG EK_GLOBALS petrol_pump_unit__pay KIND_SUBPROGRAM ORIGIN_FLOW c:var_proof [ petrol_pump_unit__total_cash_invariant ] c:var_in [ petrol_pump_unit__pumps petrol_pump_unit__cash_register ] c:var_out [ petrol_pump_unit__pumps petrol_pump_unit__cash_register ] c:calls_proof [ petrol_pump_unit__get_state petrol_pump_unit__get_price ] c:calls [ ada__text_io__put_line__2 petrol_pump_unit__print_state ] c:local_var [ petrol_pump_unit__pay__p petrol_pump_unit__pay__amount_paid ]
+GG EK_GLOBALS petrol_pump_unit__replace KIND_SUBPROGRAM ORIGIN_FLOW c:var_proof [ petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ] c:var_in [ petrol_pump_unit__pumps ] c:var_out [ petrol_pump_unit__pumps ] c:calls_proof [ petrol_pump_unit__get_state ] c:calls [ petrol_pump_unit__print_state ] c:local_var [ petrol_pump_unit__replace__p ]
+GG EK_GLOBALS petrol_pump_unit__get_price KIND_SUBPROGRAM ORIGIN_FLOW c:var_in [ petrol_pump_unit__pumps ] c:local_var [ petrol_pump_unit__get_price__p ]
+GG EK_VOLATILES
+GG EK_TASKING_NONBLOCKING [ petrol_pump_unit__get_total_outstanding_amount petrol_pump_unit__test_cash_invariant petrol_pump_unit__get_state petrol_pump_unit__get_reservoir petrol_pump_unit__all_pumps_paid petrol_pump_unit__get_outstanding_amount petrol_pump_unit__get_price petrol_pump_unit__get_total_cash_invariant petrol_pump_unit__get_cash_register petrol_pump_unit__lift petrol_pump_unit__calculate_total_value petrol_pump_unit__start petrol_pump_unit__stop petrol_pump_unit__replace petrol_pump_unit__calculate_reservoir_value ]
+GG EK_TASKING_INFO petrol_pump_unit__get_total_outstanding_amount c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__test_cash_invariant c:UNSYNCH_ACCESSES [ petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__get_state c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__get_reservoir c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__all_pumps_paid c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__get_outstanding_amount c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__get_price c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__get_cash_register c:UNSYNCH_ACCESSES [ petrol_pump_unit__cash_register ]
+GG EK_TASKING_INFO petrol_pump_unit__get_total_cash_invariant c:UNSYNCH_ACCESSES [ petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__calculate_total_value c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps petrol_pump_unit__cash_register ]
+GG EK_TASKING_INFO petrol_pump_unit__lift c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__start c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__stop c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__print_state c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_TASKING_INFO petrol_pump_unit__replace c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__pay c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps petrol_pump_unit__cash_register petrol_pump_unit__total_cash_invariant ]
+GG EK_TASKING_INFO petrol_pump_unit__calculate_reservoir_value c:UNSYNCH_ACCESSES [ petrol_pump_unit__pumps ]
+GG EK_END_MARKER

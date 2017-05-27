@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\pc\Desktop\swen421\petrolpump4\petrolpump4.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\pc\Desktop\swen421\petrolpump4\petrolpump4.gpr</vfs_project>
+      <vfs_file>C:\Users\pc\Desktop\swen421\petrolpump4\Petrol_Pump_Unit.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 1" >
+      <vfs_project>C:\Users\pc\Desktop\swen421\petrolpump4\petrolpump4.gpr</vfs_project>
+      <vfs_file>C:\Users\pc\Desktop\swen421\petrolpump4\Petrol_User.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

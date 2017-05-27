@@ -1,0 +1,40 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   Interval   CodePeer     Provers   Justified    Unproved
+--------------------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .          .           .           .           .
+Flow Dependencies                 .          .          .          .           .           .           .
+Initialization                    7          7          .          .           .           .           .
+Non-Aliasing                      .          .          .          .           .           .           .
+Run-time Checks                   9          .          .          .    4 (CVC4)           .           5
+Assertions                        .          .          .          .           .           .           .
+Functional Contracts              7          .          .          .    2 (CVC4)           .           5
+LSP Verification                  .          .          .          .           .           .           .
+--------------------------------------------------------------------------------------------------------
+Total                            23    7 (30%)          .          .     6 (26%)           .    10 (43%)
+
+
+Analyzed 2 units
+in unit petrol_pump_unit, 18 subprograms and packages out of 18 analyzed
+  Petrol_Pump_Unit at petrol_pump_unit.ads:1 flow analyzed (0 errors and 0 warnings) and proved (2 checks)
+  Petrol_Pump_Unit.All_Pumps_Paid at petrol_pump_unit.ads:52 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
+  Petrol_Pump_Unit.Calculate_Reservoir_Value at petrol_pump_unit.ads:23 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Petrol_Pump_Unit.Calculate_Total_Value at petrol_pump_unit.ads:49 flow analyzed (0 errors and 0 warnings) and proved (2 checks)
+  Petrol_Pump_Unit.Get_Cash_Register at petrol_pump_unit.ads:40 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Get_Outstanding_Amount at petrol_pump_unit.ads:27 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Get_Price at petrol_pump_unit.ads:34 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Get_Reservoir at petrol_pump_unit.ads:20 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Get_State at petrol_pump_unit.ads:36 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Get_Total_Cash_Invariant at petrol_pump_unit.ads:46 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Get_Total_Outstanding_Amount at petrol_pump_unit.ads:30 flow analyzed (0 errors and 0 warnings) and proved (1 checks)
+  Petrol_Pump_Unit.Lift at petrol_pump_unit.ads:56 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
+  Petrol_Pump_Unit.Pay at petrol_pump_unit.ads:77 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 4 proved
+  Petrol_Pump_Unit.Print_State at petrol_pump_unit.ads:38 flow analyzed (0 errors and 1 warnings) and proved (0 checks)
+  Petrol_Pump_Unit.Replace at petrol_pump_unit.ads:72 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
+  Petrol_Pump_Unit.Start at petrol_pump_unit.ads:61 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 2 proved
+  Petrol_Pump_Unit.Stop at petrol_pump_unit.ads:67 flow analyzed (0 errors and 0 warnings) and not proved, 0 checks out of 1 proved
+  Petrol_Pump_Unit.Test_Cash_Invariant at petrol_pump_unit.ads:43 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+in unit petrol_user, 0 subprograms and packages out of 1 analyzed
+  Petrol_User at petrol_user.adb:4 skipped

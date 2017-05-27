@@ -1,0 +1,74 @@
+V "GNAT Lib v2016"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U petrol_user%b		petrol_user.adb		b8569056 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W petrol_pump_unit%s	petrol_pump_unit.adb	petrol_pump_unit.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D petrol_pump_unit.ads	20170507140646 785c5017 petrol_pump_unit%s
+D petrol_user.adb	20170507140338 f8673595 petrol_user%b
+D system.ads		20160516092930 2da59038 system%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20160516092926 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 5r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 5r27
+263U14*Put_Line 11|19s10 21s10 22s10
+X 10 petrol_pump_unit.ads
+1K9*Petrol_Pump_Unit 91e4 11|2w6 2r28
+9n31*Pump95{9E9} 11|12r12 13r15 14r12 16r13 17r12 18r15 19r53 20r11 21r53
+. 27r12 28r12 33r12 34r12 39r13 44r12 46r13 47r12 48r15 49r11
+11I9*General_Cent<integer> 11|22r19
+12I9*Cent<integer> 11|8r18 19r19 21r19
+27V13*Get_Outstanding_Amount{12I9} 11|19s30 21s30
+46V13*Get_Total_Cash_Invariant{11I9} 11|22s38
+56U14*Lift 11|12s7 14s7 27s7 33s7 34s7 44s7
+61U14*Start 11|16s7 39s7 46s7
+67U14*Stop 11|17s7 28s7 47s7
+72U14*Replace 11|13s7 18s7 48s7
+77U14*Pay 11|20s7 49s7
+X 11 petrol_user.adb
+4U11*Petrol_User 4b11 60t4
+5K12 IO=5:27 19r7 21r7 22r7
+7f4 F{float}
+8i4 Amount_Paid{10|12I9} 15m7 15r22 16r21 20r19 45m7 45r22 46r21 49r19
+10U14 Assert_Pass 10b14 23t7 53s4 54s4
+25U14 Assert_Fail 25b14 29t7
+31U14 Assert_Fail_2 31b14 35t7
+37U14 Assert_Fail_3 37b14 40t7
+42U14 Assert_Fail_4 42b14 50t7
+
